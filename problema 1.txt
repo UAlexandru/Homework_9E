@@ -1,0 +1,22 @@
+problema 1
+
+
+import java.util.Scanner;
+public class DoWhileLoop {
+public static void main(String[]Args) {
+	Scanner tastatura=new Scanner (System.in);
+	int i= tastatura.nextInt();
+	int a=1;
+	do {
+		 System.out.println("a="+(a*2));
+		a++;
+		 
+	 }while(a<=i);
+
+	
+tastatura.close();
+}
+
+
+}
+

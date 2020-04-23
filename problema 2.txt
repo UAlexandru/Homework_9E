@@ -1,0 +1,25 @@
+
+
+Peoblema 2
+import java.util.Scanner;
+public class DoWhileLoop {
+public static void main(String[]Args) {
+Scanner tastatura=new Scanner (System.in);
+int a= tastatura.nextInt();
+int i =1;
+double sum=0;
+do {
+ sum= (sum+(i*i));
+i++;
+}while(i<=a);
+
+System.out.println(sum);
+
+
+}
+}
+
+
+
+
+
